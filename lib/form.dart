@@ -157,6 +157,9 @@ class _MyFormPageState extends State<MyFormPage> {
                                 });
                                 },
                             ),
+                            ]
+                        ),
+                      ),
                             ListTile(
                               leading: const Icon(Icons.co_present),
                               title: Row(
@@ -261,10 +264,6 @@ class _MyFormPageState extends State<MyFormPage> {
                                 }
                               },
                             ),
-                        ],
-                        ),
-                    ),
-
                   ],
                   ),
                 ),
